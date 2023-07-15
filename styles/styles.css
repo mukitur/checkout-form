@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  width: 1200px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+.checkout-heading {
+  color: #4e5150;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 64px;
+}
+.contact-info-heading {
+  color: #333;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+/* form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+form input {
+  width: 465px;
+  height: 56px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.2);
+  border: 1px solid #828282;
+  display: block;
+  margin-bottom: 20px;
+}
+input label {
+  color: #828282;
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: 20px;
+}
+.inptu-text {
+  color: #828282;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 16px;
+}
