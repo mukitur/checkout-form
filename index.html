@@ -19,33 +19,30 @@
   <body>
     <main>
       <h3 class="checkout-heading">Checkout</h3>
-      <div>
+      <div class="checkout">
         <!-- left side checkout -->
-        <div class="checkout">
+        <div>
           <h4 class="contact-info-heading">Contact information</h4>
           <div>
             <form action="">
               <div>
-                <label for="email"
-                  ><small>E-mail</small><br />
-                  <input
-                    class="inptu-text"
-                    type="email"
-                    placeholder="Enter your email..."
-                    name=""
-                    id="email"
-                  />
-                </label>
-                <label for="phone">
-                  <small>Phone</small>
-                  <input
-                    class="inptu-text"
-                    type="text"
-                    name=""
-                    placeholder="Enter your phone"
-                    id="phone"
-                  />
-                </label>
+                <label for="email"><small>E-mail</small></label>
+                <input
+                  class="inptu-text"
+                  type="email"
+                  placeholder="Enter your email..."
+                  name=""
+                  id="email"
+                />
+
+                <label for="phone"> <small>Phone</small></label>
+                <input
+                  class="inptu-text"
+                  type="text"
+                  name=""
+                  placeholder="Enter your phone"
+                  id="phone"
+                />
               </div>
               <div>
                 <h4 class="contact-info-heading">Shipping Address</h4>
@@ -57,7 +54,6 @@
                   name=""
                   id="fname"
                 />
-
                 <label for="address"> <small>Address</small></label>
                 <input
                   class="inptu-text"
@@ -71,16 +67,41 @@
                 <input
                   class="inptu-text"
                   type="text"
-                  name=""
+                  name="City"
                   placeholder="Your city..."
                   id="city"
                 />
+              </div>
+              <div class="country-postalcode">
+                <div class="country">
+                  <label for="country"><small>Country</small></label>
+                  <input
+                  class="inptu-text"
+                  type="text"
+                  name="country"
+                  placeholder="Your ountry..."
+                  id="country"
+                />
+              </div>
+                </div>
+                <div>
+                    <label for="country"><small>Postal Code</small></label>
+                  <input
+                  class="inptu-text"
+                  type="text"
+                  name="country"
+                  placeholder="Your postsl code..."
+                  id="country"
+                />
+                </div>
               </div>
             </form>
           </div>
         </div>
         <!-- Right side checkout -->
-        <div class="shipping"></div>
+        <div class="shipping">
+            <h3>Right side code</h3>
+        </div>
       </div>
     </main>
   </body>
